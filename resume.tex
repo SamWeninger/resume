@@ -3,11 +3,11 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=1 cm, % seperation between body and page edge from the top
-    bottom=2 cm, % seperation between body and page edge from the bottom
-    left=1.75 cm, % seperation between body and page edge from the left
-    right=1.75 cm, % seperation between body and page edge from the right
-    footskip=1.0 cm, % seperation between body and page edge from the footer
+    top=0.8 cm, % seperation between body and page edge from the top
+    bottom=1.8 cm, % seperation between body and page edge from the bottom
+    left=1.4 cm, % seperation between body and page edge from the left
+    right=1.4 cm, % seperation between body and page edge from the right
+    footskip=0.5 cm, % seperation between body and page edge from the footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 \usepackage[explicit]{titlesec} % for customizing section titles
@@ -151,12 +151,12 @@
 \let\hrefWithoutArrow\href
 
 % new command for external links:
-\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{#2}}
 
 % Custom commands for resume entries
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, itemindent=0pt, label={}, itemsep=-2pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,itemsep=-2pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
 
 \newcommand{\resumeSubheading}[4]{
