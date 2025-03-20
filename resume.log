@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  20 MAR 2025 16:03
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  20 MAR 2025 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,16 +580,41 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
 (Font)              scaled to size 10.0pt on input line 6.
 ) (./sections/skills.tex
-LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `TS1/SourceSansPro-TLF/regular/n' on input line 4.
-LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 4.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 4.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 4.
-) (./sections/projects.tex)
-(./sections/education.tex)
+Underfull \hbox (badness 10000) in alignment at lines 4--8
+[][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--191
+
+ []
+
+(./sections/projects.tex
+Overfull \hbox (11.82803pt too wide) in paragraph at lines 9--10
+[]\T1/SourceSansPro-TLF/regular/n/10 Full stack ap-pli-ca-tion with database (\
+T1/SourceSansPro-TLF/bold/n/10 AWS Dy-namoDB\T1/SourceSansPro-TLF/regular/n/10 
+), back-end API (\T1/SourceSansPro-TLF/bold/n/10 Python \T1/SourceSansPro-TLF/r
+egular/n/10 + \T1/SourceSansPro-TLF/bold/n/10 AWS\T1/SourceSansPro-TLF/regular/
+n/10 ) & fron-tend ap-pli-ca-tion (\T1/SourceSansPro-TLF/bold/n/10 TypeScript\T
+1/SourceSansPro-TLF/regular/n/10 ) 
+ []
+
+
+Overfull \hbox (44.00891pt too wide) in alignment at lines 14--14
+[] [] 
+ []
+
+
+Overfull \hbox (3.25337pt too wide) in paragraph at lines 17--18
+[]\T1/SourceSansPro-TLF/regular/n/10 Integrated database (\T1/SourceSansPro-TLF
+/bold/n/10 PostgreSQL\T1/SourceSansPro-TLF/regular/n/10 ), back-end API (\T1/So
+urceSansPro-TLF/bold/n/10 Python Flask \T1/SourceSansPro-TLF/regular/n/10 + \T1
+/SourceSansPro-TLF/bold/n/10 SQLAlchemy \T1/SourceSansPro-TLF/regular/n/10 ORMs
+) & fron-tend ap-pli-ca-tion (\T1/SourceSansPro-TLF/bold/n/10 React.js\T1/Sourc
+eSansPro-TLF/regular/n/10 ) 
+ []
+
+) (./sections/education.tex)
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/it' on input line 198.
@@ -606,12 +631,12 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14211 strings out of 473832
- 222409 string characters out of 5729482
- 650225 words of memory out of 5000000
- 37054 multiletter control sequences out of 15000+600000
- 664844 words of font info for 67 fonts, out of 8000000 for 9000
+ 14207 strings out of 473832
+ 222294 string characters out of 5729482
+ 655225 words of memory out of 5000000
+ 37050 multiletter control sequences out of 15000+600000
+ 655276 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,7n,79p,293b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,79p,418b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on resume.pdf (1 page).
