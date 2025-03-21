@@ -6,6 +6,10 @@ PDF_FILE="resume.pdf"
 PNG_DIR="images"
 PNG_FILE="$PNG_DIR/resume.png"
 
+# Clean up auxiliary files
+echo "Cleaning up auxiliary files..."
+rm -f *.aux *.log *.out *.toc *.lof *.lot *.fls *.fdb_latexmk
+
 # Compile the LaTeX document to PDF
 echo "Compiling $TEX_FILE to PDF..."
 xelatex $TEX_FILE
@@ -21,7 +25,7 @@ if [ -f "$PDF_FILE" ]; then
 
     # Convert the PDF to PNG with a background color using ImageMagick
     echo "Converting $PDF_FILE to PNG with a background color..."
-    magick -density 300 $PDF_FILE -background white -flatten -quality 90 $PNG_FILE
+    magick -density 300 $PDF_FILE -background "#FAF9F6" -flatten -quality 90 $PNG_FILE
     
     # Check if PNG was created successfully
     if [ -f "$PNG_FILE" ]; then
