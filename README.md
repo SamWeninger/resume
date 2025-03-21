@@ -2,6 +2,10 @@
 
 A clean, modular LaTeX resume template designed for easy customization and ATS compatibility.
 
+![Resume Preview](images/resume.png)
+
+[Download PDF Version](resume.pdf)
+
 ## Features
 
 - **Modular Design**: Each section is in a separate file for easy maintenance
@@ -22,6 +26,12 @@ A clean, modular LaTeX resume template designed for easy customization and ATS c
 
 3. **Compile**: Run `xelatex resume.tex` to generate your PDF resume. XeLaTeX is recommended over pdfLaTeX for better font rendering and Unicode support.
 
+4. **Generate PNG (Optional)**: Use the `build_resume.sh` script to generate a PNG image of your resume. This requires ImageMagick to be installed:
+   - **Install ImageMagick**:
+     - On Ubuntu/Debian: `sudo apt-get install imagemagick`
+     - On macOS: `brew install imagemagick`
+   - Run the script: `./build_resume.sh`
+
 ## Structure
 
 - `resume.tex`: Main template file (do not edit)
@@ -39,6 +49,7 @@ A clean, modular LaTeX resume template designed for easy customization and ATS c
 
 - A LaTeX distribution (e.g., TeX Live, MiKTeX)
 - The following LaTeX packages: geometry, titlesec, tabularx, xcolor, enumitem, fontawesome5, amsmath, hyperref, eso-pic, calc, bookmark, lastpage, changepage, paracol, ifthen, needspace, iftex
+- **Optional**: ImageMagick for generating PNG images
 
 ## Credits
 
