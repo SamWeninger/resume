@@ -47,7 +47,15 @@
     \usepackage{lmodern}
 \fi
 
-\usepackage[default, type1]{sourcesanspro} 
+\usepackage{fontspec}
+
+\setmainfont[
+    Path = ./fonts/,
+    Extension = .ttf,
+    UprightFont = Roboto-Light,
+    BoldFont = Roboto-Bold,
+    ItalicFont = Roboto-LightItalic
+]{Roboto}
 
 % Some settings:
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
@@ -154,9 +162,9 @@
 \renewcommand{\href}[2]{\hrefWithoutArrow{#1}{#2}}
 
 % Custom commands for resume entries
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, itemindent=0pt, label={}, itemsep=-2pt]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, itemindent=0pt, label={}, itemsep=0pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,itemsep=-2pt]}
+\newcommand{\resumeItemListStart}{\vspace{-5pt}\begin{itemize}[leftmargin=*,itemsep=0pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
 
 \newcommand{\resumeSubheading}[4]{
